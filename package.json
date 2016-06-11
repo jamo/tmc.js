@@ -1,12 +1,13 @@
 {
   "name": "tmc",
-  "version": "0.4.2",
+  "version": "0.4.1",
   "description": "Installs and updates tmc-cli",
-  "main": "index.js",
+  "main": "build/tmc",
   "bin": {
     "tmc": "build/tmc"
   },
   "scripts": {
+    "update": "./node_modules/babel-cli/bin/babel-node.js update.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jarmo Isotalo <jamo@isotalo.fi> (http://jarmoisotalo.com)",
