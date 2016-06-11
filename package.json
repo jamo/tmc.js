@@ -1,11 +1,20 @@
 {
   "name": "tmc",
-  "version": "0.0.1",
-  "description": "TMC cli",
+  "version": "0.4.2",
+  "description": "Installs and updates tmc-cli",
   "main": "index.js",
+  "bin": {
+    "tmc": "build/tmc"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jarmo Isotalo <jamo@isotalo.fi> (http://jarmoisotalo.com)",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "request": "^2.72.0",
+    "semver": "^5.1.0"
+  }
 }
