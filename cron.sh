@@ -11,7 +11,7 @@ if [ -z "$SEMVER" ]; then
   SEMVER="$NODE $($NPM bin)/semver"
 fi
 
-$npm run update >/dev/null
+$NPM run update >/dev/null
 
 # check if the working tree is "dirty"
 git diff --quiet bin/tmc
