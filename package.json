@@ -1,10 +1,13 @@
 {
   "name": "tmc",
-  "version": "0.4.2-a",
+  "version": "0.4.2-b",
   "description": "Installs and updates tmc-cli",
   "bin": {
-    "tmc": "build/tmc"
+    "tmc": "bin/tmc"
   },
+  "files": [
+    "bin"
+  ],
   "scripts": {
     "update": "./node_modules/babel-cli/bin/babel-node.js update.js",
     "test": "echo \"Error: no test specified\" && exit 1"
