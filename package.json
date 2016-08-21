@@ -1,6 +1,6 @@
 {
   "name": "tmc",
-  "version": "0.4.2-b",
+  "version": "0.7.6",
   "description": "Installs and updates tmc-cli",
   "bin": {
     "tmc": "bin/tmc"
