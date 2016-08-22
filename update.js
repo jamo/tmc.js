@@ -22,7 +22,7 @@ function maybeUpdate(json) {
   }
 }
 
-fetch('https://api.github.com/repos/tmc-cli/tmc-cli/releases/latest')
+fetch('https://api.github.com/repos/testmycode/tmc-cli/releases/latest')
   .then((response) => {
     return response.json()
   })
